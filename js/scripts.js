@@ -19,12 +19,6 @@ function divide(number1, number2) {
 const number1 = parseInt(prompt("Enter a number:"));
 const number2 = parseInt(prompt("Enter another number:"));
 
-let addAns = add(number1, number2);
-let subtractAns = subtract(number1, number2);
-let multiplyAns = multiply(number1, number2);
-let divideAns = divide(number1, number2);
-
-
 window.alert(`${number1} + ${number2} = ${add(number1, number2)} \n
 ${number1} - ${number2} = ${subtract(number1, number2)} \n
 ${number1} * ${number2} = ${multiply(number1, number2)} \n
